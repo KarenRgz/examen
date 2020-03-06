@@ -13,15 +13,21 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $arbolg = [ 
-            ['nombre' => 'Maria Caamal'],
+         $abuelos=[
+            ['nombre' => 'Felipe Caamal'],
+            ['nombre' => 'Pascuala Gutierrez'],          
+
+        ];
+         $padres=[
+            ['nombre' => 'Maria Caamal Tec'],
+        ];
+
+        $hermanas=[
             ['nombre' => 'Erandy Rodriguez'],
             ['nombre' => 'Salome Rodriguez'],
-            ['nombre' => 'Jeziel Rodriguez'],
-            ['nombre' => 'Felipe Caamal'],
-            ['nombre' => 'Karen Rodriguez'],
         ];
-        return view ('arbol', compact ('arbolg'));
+        
+        return view('arbol', compact('abuelos','padres','hermanas'));
     }
 
     /**

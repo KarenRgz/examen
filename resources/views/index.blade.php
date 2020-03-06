@@ -71,5 +71,4 @@
 </nav>
 <h1>¡Hola, bienvenido! Mi nombre es Karen, estudio en la UIMQROO. Este es mi examen del primer parcial.</h1>
 </body>
-<footer>Karen Rodriguez<href="https://www.facebook.com/Karenrgz2398?ref=bookmarks"></footer>
 @endsection

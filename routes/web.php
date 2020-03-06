@@ -24,6 +24,9 @@ Route::view('/experiencia', 'experiencia')->name('experiencia');
 Route::view('/hobbies', 'hobbies')->name('hobbies');
 Route::view('/quiensoy', 'quiensoy')->name('quiensoy');
 
-Route::resource('arbolg', 'HomeController@arbol');
+
+Route::resource('arbolito', 'HomeController@index');
 
 
+Route::resource('quiensoy', 'ImagenController');
+Route::resource('arbol', 'HomeController');
